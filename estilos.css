@@ -1,0 +1,12 @@
+h3 {
+    color: yellow;
+    font-size: 50px;
+    background-color: yellowgreen;
+}
+div {
+    width: 350px;
+    height: 250px;
+    background-color: blue;
+    background-image: url(rapto.jpg);
+    background-size: cover;
+}
