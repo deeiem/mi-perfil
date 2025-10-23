@@ -1,12 +1,56 @@
-h3 {
-    color: yellow;
-    font-size: 50px;
-    background-color: yellowgreen;
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
 }
-div {
-    width: 350px;
-    height: 250px;
-    background-color: blue;
-    background-image: url(rapto.jpg);
-    background-size: cover;
+
+p {
+  color: #333;
+  line-height: 1.6;
 }
+
+.destacado {
+  background-color: yellow;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+#principal {
+    color: red; text-align: center; font-size: 30px;
+}
+.informacion {
+    color: blue; padding: 15px; border: 2px solid black;
+}
+.caja {
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+}
+.contenedor {
+  display: flex;
+  gap: 10px; /* espacio entre cajas */
+	  background-color: #eee;
+    justify-content: center;
+      align-items: center;     /* eje vertical */
+  height: 500px;
+flex-direction: column-reverse;  
+}
+
+.one {
+background-color: blueviolet;
+}
+
+.dos {
+background-color: cadetblue;
+
+}
+.item {
+  background-color: lightcoral;
+  padding: 20px;
+  text-align: center;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));  /* 2 columnas iguales */
+  gap: 40px;}
