@@ -1,0 +1,35 @@
+body {
+    background-color: skyblue; font-family: Arial, sans-serif;
+}
+h1{
+    text-align: center;
+}
+.tarjeta {
+    background-color: white; 
+    padding:5px;  
+    padding-left: 50px;
+    padding-right: 20xpx;
+    border-radius: 20px;  
+}
+.tabla {
+    display: grid; 
+    gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h2 {
+    color: blue;
+}
+span{
+    color: brown;
+    font-weight: bolder;
+    font-size: 20px;
+}
+p{
+    font-size: 18px;
+}
+.titulo{
+    padding: 20px;
+}
